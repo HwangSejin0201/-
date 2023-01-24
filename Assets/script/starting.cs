@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class starting : MonoBehaviour
 {
+    public AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource=GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -17,6 +18,7 @@ public class starting : MonoBehaviour
         if(Input.GetMouseButton(0))
         {
             SceneManager.LoadScene("Second");
+            audioSource.Play();
         }
     }
 }

@@ -19,5 +19,12 @@ public class GameSceneMove : MonoBehaviour
     {
         SceneManager.LoadScene("Story"); //� ������ �̵��� ����
     }
-   
+   public void GameSceneCtrl_4()
+    {
+        SceneManager.LoadScene("FirstChapter"); //� ������ �̵��� ����
+    }
+    public void GameSceneCrtl_5()
+    {
+        SceneManager.LoadScene("InGameScene");
+    }
 }
