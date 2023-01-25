@@ -1,0 +1,12 @@
+https://github.com/HwangSejin0201/-.git
+git init
+
+git add README.md 
+
+git commit -m "first commit" 
+
+git branch -M main
+
+git remote https://github.com/HwangSejin0201/-.git
+
+git push -u origin main
