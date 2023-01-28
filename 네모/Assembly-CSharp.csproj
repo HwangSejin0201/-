@@ -56,19 +56,29 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\script\my\Autoo.cs" />
     <Compile Include="Assets\script\my\Controler.cs" />
-    <Compile Include="Assets\script\my\Auto.cs" />
     <Compile Include="Assets\script\my\ImageChange2.cs" />
     <Compile Include="Assets\script\BtnCntl.cs" />
-    <Compile Include="Assets\script\my\Move.cs" />
+    <Compile Include="Assets\script\my\Before.cs" />
+    <Compile Include="Assets\script\my\Right.cs" />
+    <Compile Include="Assets\script\my\MoveControl.cs" />
+    <Compile Include="Assets\script\my\NumOutline.cs" />
+    <Compile Include="Assets\script\my\Up.cs" />
+    <Compile Include="Assets\script\my\Left.cs" />
     <Compile Include="Assets\script\starting.cs" />
     <Compile Include="Assets\script\my\Obutton.cs" />
+    <Compile Include="Assets\script\my\Down.cs" />
     <Compile Include="Assets\script\my\BtnActive2.cs" />
     <Compile Include="Assets\script\GameSceneMove.cs" />
     <Compile Include="Assets\script\my\ImageChange.cs" />
+    <Compile Include="Assets\script\my\OnMouseDown1.cs" />
     <Compile Include="Assets\script\my\BtnActive.cs" />
     <Compile Include="Assets\script\my\Heart.cs" />
     <Compile Include="Assets\script\my\RandomHint.cs" />
+    <Compile Include="Assets\script\my\Distance.cs" />
+    <Compile Include="Assets\script\my\Distance2.cs" />
+    <Compile Include="Assets\script\my\Position.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

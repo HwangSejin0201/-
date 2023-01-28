@@ -9,6 +9,17 @@ TagManager:
   - target
   - square2
   - square3
+  - line1
+  - line2
+  - line4
+  - line3
+  - line5
+  - line6
+  - line7
+  - line8
+  - line9
+  - line10
+  - target2
   layers:
   - Default
   - TransparentFX

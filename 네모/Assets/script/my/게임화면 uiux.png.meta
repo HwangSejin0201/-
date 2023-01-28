@@ -533,7 +533,7 @@ TextureImporter:
         width: 79
         height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -541,6 +541,27 @@ TextureImporter:
       bones: []
       spriteID: d8c8c9284b8ba2e4aa8c5cbff0cf31c8
       internalID: 65248952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uAC8C\uC784\uD654\uBA74 uiux_21"
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1549
+        width: 11
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 2, y: 3, z: 3, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3a7ae9e229a00469c1d03bae04587e
+      internalID: -1320208407
       vertices: []
       indices: 
       edges: []
@@ -557,6 +578,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       "\uAC8C\uC784\uD654\uBA74 uiux_9": -558702929
+      "\uAC8C\uC784\uD654\uBA74 uiux_21": -1547205994
       "\uAC8C\uC784\uD654\uBA74 uiux_0": 1043488732
       "\uAC8C\uC784\uD654\uBA74 uiux_4": 1230621113
       "\uAC8C\uC784\uD654\uBA74 uiux_12": 218637498

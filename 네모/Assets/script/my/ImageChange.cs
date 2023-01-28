@@ -13,14 +13,11 @@ public class ImageChange : MonoBehaviour
 
     public void ChangeImage() //그림이 맞는 네모에 적용
     {
+        
         gameObject.GetComponent<Image>().color = new Color(1, 1, 1, 1);
         gameObject.tag = "square2";
-        /*if (gameObject.tag == "target")
-        {
-            gameObject.tag = "square";
-        }
-        GameObject.Find("Move").GetComponent<Move>().IsStart = 1;
-        gameObject.tag = "target";*/
+        
+
 
         if (GameObject.Find("Obutton").GetComponent<BtnActive>().BtnO == 1) //Obutton활성화일때
         {
@@ -42,8 +39,7 @@ public class ImageChange : MonoBehaviour
                 }
             }
         }
-        
-    }
 
-     
+
+    }     
 }
