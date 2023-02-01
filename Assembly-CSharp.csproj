@@ -58,7 +58,9 @@
   <ItemGroup>
     <Compile Include="Assets\script\my\Autoo.cs" />
     <Compile Include="Assets\script\my\Controler.cs" />
+    <Compile Include="Assets\script\my\Position.cs" />
     <Compile Include="Assets\script\my\ImageChange2.cs" />
+    <Compile Include="Assets\script\my\Distance2.cs" />
     <Compile Include="Assets\script\BtnCntl.cs" />
     <Compile Include="Assets\script\my\Before.cs" />
     <Compile Include="Assets\script\my\Right.cs" />
@@ -69,6 +71,7 @@
     <Compile Include="Assets\script\starting.cs" />
     <Compile Include="Assets\script\my\Obutton.cs" />
     <Compile Include="Assets\script\my\Down.cs" />
+    <Compile Include="Assets\script\my\Distance.cs" />
     <Compile Include="Assets\script\my\BtnActive2.cs" />
     <Compile Include="Assets\script\GameSceneMove.cs" />
     <Compile Include="Assets\script\my\ImageChange.cs" />
@@ -76,9 +79,6 @@
     <Compile Include="Assets\script\my\BtnActive.cs" />
     <Compile Include="Assets\script\my\Heart.cs" />
     <Compile Include="Assets\script\my\RandomHint.cs" />
-    <Compile Include="Assets\script\my\Distance.cs" />
-    <Compile Include="Assets\script\my\Distance2.cs" />
-    <Compile Include="Assets\script\my\Position.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

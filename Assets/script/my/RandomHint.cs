@@ -7,9 +7,16 @@ using UnityEngine.UI;
 
 public class RandomHint : MonoBehaviour
 {
-    
+    public Image Before;
+    public Sprite After;
+
     public void OnMouseDown()
     {
+        if (Before.sprite == After)
+        {
+            return;
+        }
+
         List<GameObject> list = new List<GameObject>();
         GameObject[] tmp = GameObject.FindGameObjectsWithTag("square2");
         foreach (GameObject go in tmp)
@@ -23,9 +30,13 @@ public class RandomHint : MonoBehaviour
             {
                 int rand = Random.Range(0, list.Count);
                 list[rand].GetComponent<ImageChange>().ChangeImage();
-                Debug.Log(list.Count);
+
                 list[rand].tag = "square3";
                 list.RemoveAt(rand);
+                if(list.Count <= 0)
+                {
+                    break;
+                }
 
             }
         }
@@ -36,13 +47,18 @@ public class RandomHint : MonoBehaviour
             {
                 int rand = Random.Range(0, list.Count);
                 list[rand].GetComponent<ImageChange>().ChangeImage();
-                Debug.Log(list.Count);
+
                 list[rand].tag = "square3";
                 list.RemoveAt(rand);
-
+                if (list.Count <= 0)
+                {
+                    break;
+                }
             }
             GameObject.Find("Obutton").GetComponent<BtnActive>().BtnO = 0;
         }
+
+        Before.sprite = After;
 
     }
 }
