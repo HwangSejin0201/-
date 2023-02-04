@@ -6,5 +6,4 @@ public class Before : MonoBehaviour
 {
     public int IsBefore = 0;
     
-    
 }

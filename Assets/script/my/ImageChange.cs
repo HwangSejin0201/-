@@ -10,7 +10,10 @@ public class ImageChange : MonoBehaviour
     public Sprite NotPicture; //아닌 것 같다고 생각하는 엑스 그림(틀린거 아님)
     public Sprite Return; //다시 빈 공간으로
 
-
+    private void Start()
+    {
+        Empty = gameObject.GetComponent<Image>();
+    }
     public void ChangeImage() //그림이 맞는 네모에 적용
     {
         
