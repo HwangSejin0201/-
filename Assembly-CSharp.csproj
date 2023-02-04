@@ -58,27 +58,39 @@
   <ItemGroup>
     <Compile Include="Assets\script\my\Autoo.cs" />
     <Compile Include="Assets\script\my\Controler.cs" />
+    <Compile Include="Assets\script\my2\LeftS2.cs" />
+    <Compile Include="Assets\script\my2\MoveControlS2.cs" />
     <Compile Include="Assets\script\my\Position.cs" />
     <Compile Include="Assets\script\my\ImageChange2.cs" />
     <Compile Include="Assets\script\my\Distance2.cs" />
     <Compile Include="Assets\script\BtnCntl.cs" />
+    <Compile Include="Assets\script\my2\Autoo_S2.cs" />
     <Compile Include="Assets\script\my\Before.cs" />
     <Compile Include="Assets\script\my\Right.cs" />
+    <Compile Include="Assets\script\my2\NumOutline_S2.cs" />
     <Compile Include="Assets\script\my\MoveControl.cs" />
     <Compile Include="Assets\script\my\NumOutline.cs" />
+    <Compile Include="Assets\script\my2\UpS2.cs" />
     <Compile Include="Assets\script\my\Up.cs" />
     <Compile Include="Assets\script\my\Left.cs" />
     <Compile Include="Assets\script\starting.cs" />
     <Compile Include="Assets\script\my\Obutton.cs" />
     <Compile Include="Assets\script\my\Down.cs" />
+    <Compile Include="Assets\script\my2\DownS2.cs" />
     <Compile Include="Assets\script\my\Distance.cs" />
     <Compile Include="Assets\script\my\BtnActive2.cs" />
     <Compile Include="Assets\script\GameSceneMove.cs" />
     <Compile Include="Assets\script\my\ImageChange.cs" />
     <Compile Include="Assets\script\my\OnMouseDown1.cs" />
+    <Compile Include="Assets\script\my2\RightS2.cs" />
     <Compile Include="Assets\script\my\BtnActive.cs" />
     <Compile Include="Assets\script\my\Heart.cs" />
     <Compile Include="Assets\script\my\RandomHint.cs" />
+    <Compile Include="Assets\script\my2\ImageChange2_S2.cs" />
+    <Compile Include="Assets\script\my2\OnMouseDown1_S2.cs" />
+    <Compile Include="Assets\script\my\Location.cs" />
+    <Compile Include="Assets\script\my2\Distance_S2.cs" />
+    <Compile Include="Assets\script\my2\Distance2_S2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
