@@ -17,7 +17,7 @@ public class MoveControl : MonoBehaviour
     {
         IsSelect = 0;
         SqActive = GameObject.Find("Select");
-        SqActive.transform.position = new Vector3(54.58f, 333.9f, 0);
+        SqActive.transform.position = new Vector3(-46.79f, 125.54f, 100);
     }
 
     // Update is called once per frame

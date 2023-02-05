@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Stage1_Scarecrow.unity
+- path: "Assets/Scenes/Chapter1/\uD5C8\uC218\uC544\uBE44/Scarecrow4.unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0

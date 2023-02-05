@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Right : MoveControl
@@ -10,20 +9,20 @@ public class Right : MoveControl
     {
         SqActive.GetComponent<MoveControl>().IsSelect = 1;
 
-        if (SqActive.transform.position.x >= 207.04f)
+        if (SqActive.transform.position.x >= 83f)
         {
-            SqActive.transform.position += new Vector3(-152.46f, 0, 0);
+            SqActive.transform.position = new Vector3(-46.85f, SqActive.transform.position.y, 100.00f);
         }
         else
         {
-            SqActive.transform.position += new Vector3(16.94f, 0, 0);
+            SqActive.transform.position += new Vector3(14.73f, 0, 0);
         }
 
     }
 
     //(88.46, 300.20, 0.00)(105.40, 300.20, 0.00)(105.40, 283.80, 0.00)
-    //À§¾Æ·¡ Â÷ÀÌ:16.7 , ¿·: 16.94
-    //À§:333.90 (105.40, 333.90, 0.00) ¾Æ·¡:183.60 (105.40, 183.60, 0.00)¿À:207.04(207.04, 283.80, 0.00) ¿Þ:54.58 (54.58, 283.80, 0.00)
+    //ï¿½ï¿½ï¿½Æ·ï¿½ ï¿½ï¿½ï¿½ï¿½:16.7 , ï¿½ï¿½: 16.94
+    //ï¿½ï¿½:333.90 (105.40, 333.90, 0.00) ï¿½Æ·ï¿½:183.60 (105.40, 183.60, 0.00)ï¿½ï¿½:207.04(207.04, 283.80, 0.00) ï¿½ï¿½:54.58 (54.58, 283.80, 0.00)
 
     // Update is called once per frame
 }

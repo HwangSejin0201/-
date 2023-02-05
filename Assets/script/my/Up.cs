@@ -11,19 +11,19 @@ public class Up : MoveControl
     {
         SqActive.GetComponent<MoveControl>().IsSelect = 1;
 
-        if (SqActive.transform.position.y >= 333.9f)
+        if (SqActive.transform.position.y >= 120f)
         {
-            SqActive.transform.position += new Vector3(0, -150.3f, 0);
+            SqActive.transform.position = new Vector3(SqActive.transform.position.x, 10.64f, 100.00f);
         }
         else
         {
-            SqActive.transform.position += new Vector3(0, 16.7f, 0);
+            SqActive.transform.position += new Vector3(0, 12.76f, 0);
         }
 
     }
 
     //(88.46, 300.20, 0.00)(105.40, 300.20, 0.00)(105.40, 283.80, 0.00)
-    //À§¾Æ·¡ Â÷ÀÌ:16.7 , ¿·: 16.94
-    //À§:333.90 (105.40, 333.90, 0.00) ¾Æ·¡:183.60 (105.40, 183.60, 0.00)¿À:207.04(207.04, 283.80, 0.00) ¿Þ:54.58 (54.58, 283.80, 0.00)
+    //ï¿½ï¿½ï¿½Æ·ï¿½ ï¿½ï¿½ï¿½ï¿½:16.7 , ï¿½ï¿½: 16.94
+    //ï¿½ï¿½:333.90 (105.40, 333.90, 0.00) ï¿½Æ·ï¿½:183.60 (105.40, 183.60, 0.00)ï¿½ï¿½:207.04(207.04, 283.80, 0.00) ï¿½ï¿½:54.58 (54.58, 283.80, 0.00)
 
 }

@@ -7,12 +7,12 @@ public class GameSceneMove : MonoBehaviour
 {
     public void GameSceneCtrl()
     {
-        SceneManager.LoadScene("Second"); //� ������ �̵��� ����
+        SceneManager.LoadScene("First"); //� ������ �̵��� ����
     }
 
     public void GameSceneCtrl_2()
     {
-        SceneManager.LoadScene("Art"); //� ������ �̵��� ����
+        SceneManager.LoadScene("FirstChapter"); //� ������ �̵��� ����
     }
 
     public void GameSceneCtrl_3()
