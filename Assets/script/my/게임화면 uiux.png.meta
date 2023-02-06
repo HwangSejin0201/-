@@ -101,6 +101,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -172,7 +196,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 218
-        y: 1044
+        y: 1045
         width: 616
         height: 617
       alignment: 0
@@ -234,8 +258,8 @@ TextureImporter:
       name: "\uAC8C\uC784\uD654\uBA74 uiux_6"
       rect:
         serializedVersion: 2
-        x: 121
-        y: 1549
+        x: 122
+        y: 1550
         width: 35
         height: 48
       alignment: 0
@@ -554,7 +578,7 @@ TextureImporter:
         width: 11
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 2, y: 3, z: 3, w: 3}
       outline: []
       physicsShape: []
@@ -562,6 +586,27 @@ TextureImporter:
       bones: []
       spriteID: fd3a7ae9e229a00469c1d03bae04587e
       internalID: -1320208407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\uAC8C\uC784\uD654\uBA74 uiux_22"
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1548
+        width: 65
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527eaa06a3c69ac408719f6a673618a4
+      internalID: -982203419
       vertices: []
       indices: 
       edges: []
@@ -591,6 +636,7 @@ TextureImporter:
       "\uAC8C\uC784\uD654\uBA74 uiux_14": 85637883
       "\uAC8C\uC784\uD654\uBA74 uiux_20": 65248952
       "\uAC8C\uC784\uD654\uBA74 uiux_19": 1935277497
+      "\uAC8C\uC784\uD654\uBA74 uiux_22": -982203419
       "\uAC8C\uC784\uD654\uBA74 uiux_10": -1317978843
       "\uAC8C\uC784\uD654\uBA74 uiux_8": -1389445307
       "\uAC8C\uC784\uD654\uBA74 uiux_7": -63003329

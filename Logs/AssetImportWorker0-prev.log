@@ -15,7 +15,7 @@ C:/Users/dpdud/OneDrive/Desktop/squaredream/-
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62942
+50714
 Successfully changed project path to: C:/Users/dpdud/OneDrive/Desktop/squaredream/-
 C:/Users/dpdud/OneDrive/Desktop/squaredream/-
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/dpdud/OneDrive/Desktop/squaredream/-
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7004] Host "[IP] 172.16.63.48 [Port] 0 [Flags] 2 [Guid] 4009605736 [EditorId] 4009605736 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-95LGP4O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26700] Host "[IP] 192.168.123.103 [Port] 0 [Flags] 2 [Guid] 728304735 [EditorId] 728304735 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-95LGP4O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7004] Host "[IP] 172.16.63.48 [Port] 0 [Flags] 2 [Guid] 4009605736 [EditorId] 4009605736 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-95LGP4O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26700] Host "[IP] 192.168.123.103 [Port] 0 [Flags] 2 [Guid] 728304735 [EditorId] 728304735 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-95LGP4O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 128.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 367.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -67,50 +67,248 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.477448 seconds.
+Registered in 0.045967 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 106.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 352.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  9.194 seconds
+- Completed reload, in  3.089 seconds
 Domain Reload Profiling:
-	ReloadAssembly (9195ms)
-		BeginReloadAssembly (5770ms)
+	ReloadAssembly (3090ms)
+		BeginReloadAssembly (357ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (2313ms)
-			LoadAssemblies (5776ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (2169ms)
+			LoadAssemblies (351ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1578ms)
+			SetupTypeCache (523ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (601ms)
+			RebuildScriptCaches (131ms)
+			SetupLoadedEditorAssemblies (1274ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (245ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (107ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (155ms)
-				ProcessInitializeOnLoadMethodAttributes (92ms)
+				InitializePlatformSupportModulesInManaged (293ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (353ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (408ms)
+				ProcessInitializeOnLoadMethodAttributes (215ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014209 seconds.
-Android Extension - Scanning For ADB Devices 4983 ms
+Registered in 0.026480 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  6.387 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6390ms)
+		BeginReloadAssembly (627ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (178ms)
+		EndReloadAssembly (5153ms)
+			LoadAssemblies (398ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1105ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (244ms)
+			SetupLoadedEditorAssemblies (3241ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (121ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (390ms)
+				ProcessInitializeOnLoadAttributes (2549ms)
+				ProcessInitializeOnLoadMethodAttributes (146ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (49ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (30.2 KB). Loaded Objects now: 3847.
+Memory consumption went from 129.2 MB to 129.2 MB.
+Total: 42.489800 ms (FindLiveObjects: 0.587600 ms CreateObjectMapping: 0.419500 ms MarkObjects: 41.392700 ms  DeleteObjects: 0.087100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1513721.862901 seconds.
+  path: Assets/Scenes/Chapter1/양철나무꾼/Stage1_Scarecrow 1.unity
+  artifactKey: Guid(dc3ba0a4174bf9b45a5b44b7ce30eb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chapter1/양철나무꾼/Stage1_Scarecrow 1.unity using Guid(dc3ba0a4174bf9b45a5b44b7ce30eb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26067ee3349421e22ae971cf837852c') in 0.028922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.396979 seconds.
+  path: Assets/Scenes/Chapter1/양철나무꾼/Stage1_Scarecrow 2.unity
+  artifactKey: Guid(03a8a09ec073c054da0087df4842fab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chapter1/양철나무꾼/Stage1_Scarecrow 2.unity using Guid(03a8a09ec073c054da0087df4842fab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d9e7a8b76f6b5e191f2d667fb0a100') in 0.018632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.466302 seconds.
+  path: Assets/Scenes/Chapter1/양철나무꾼/Stage1_Scarecrow 3.unity
+  artifactKey: Guid(42f449b1501f6a04e946faf70b9f241a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chapter1/양철나무꾼/Stage1_Scarecrow 3.unity using Guid(42f449b1501f6a04e946faf70b9f241a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc49fc2584bdc23478fafc68f0e97bf7') in 0.018002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.472183 seconds.
+  path: Assets/Scenes/Chapter1/양철나무꾼/Stage1_Scarecrow 4.unity
+  artifactKey: Guid(a13b5c992a9dd0848bfc698d3f43d849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chapter1/양철나무꾼/Stage1_Scarecrow 4.unity using Guid(a13b5c992a9dd0848bfc698d3f43d849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce5a84ab69b8b98c1d50ef60d186502') in 0.017822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.496558 seconds.
+  path: Assets/Scenes/Chapter1/양철나무꾼/TinMan1.unity
+  artifactKey: Guid(dc3ba0a4174bf9b45a5b44b7ce30eb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chapter1/양철나무꾼/TinMan1.unity using Guid(dc3ba0a4174bf9b45a5b44b7ce30eb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d1edd44b069e175c1fa4e391943db6') in 0.016202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.619917 seconds.
+  path: Assets/Scenes/Chapter1/양철나무꾼/TinMan2.unity
+  artifactKey: Guid(03a8a09ec073c054da0087df4842fab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chapter1/양철나무꾼/TinMan2.unity using Guid(03a8a09ec073c054da0087df4842fab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a42c87e80646eff27102d4617c5e88a') in 0.018517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.554887 seconds.
+  path: Assets/Scenes/Chapter1/양철나무꾼/TinMan3.unity
+  artifactKey: Guid(42f449b1501f6a04e946faf70b9f241a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chapter1/양철나무꾼/TinMan3.unity using Guid(42f449b1501f6a04e946faf70b9f241a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a1a841ad84e6d4de83d400b069f01b') in 0.020841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.954470 seconds.
+  path: Assets/Scenes/Chapter1/양철나무꾼/TinMan4.unity
+  artifactKey: Guid(a13b5c992a9dd0848bfc698d3f43d849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Chapter1/양철나무꾼/TinMan4.unity using Guid(a13b5c992a9dd0848bfc698d3f43d849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8fcfc07852b2d9ca730f189bfc4597') in 0.021285 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022579 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Users\dpdud\OneDrive\Desktop\squaredream\-\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.668 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4670ms)
+		BeginReloadAssembly (380ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (4005ms)
+			LoadAssemblies (220ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (670ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (158ms)
+			SetupLoadedEditorAssemblies (2080ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (135ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (279ms)
+				ProcessInitializeOnLoadAttributes (1482ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
+				AfterProcessingInitializeOnLoad (36ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (58ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3336 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (24.7 KB). Loaded Objects now: 3851.
+Memory consumption went from 126.5 MB to 126.4 MB.
+Total: 22.261800 ms (FindLiveObjects: 0.452300 ms CreateObjectMapping: 0.245100 ms MarkObjects: 21.484800 ms  DeleteObjects: 0.078100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
