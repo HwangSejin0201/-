@@ -9,16 +9,17 @@ public class LeftS2 : MoveControlS2
     public void OnMouseDown()
     {
         SqActive.GetComponent<MoveControlS2>().IsSelect = 1;
-        
-        if(SqActive.transform.position.x < 62.44f)
+
+        if (SqActive.transform.position.x < 98f)
         {
-            SqActive.transform.position += new Vector3(161f, 0, 0);
+            SqActive.transform.position = new Vector3(401.15f, SqActive.transform.position.y, 0);
         }
         else
         {
-            SqActive.transform.position += new Vector3(-11.5f, 0, 0);
+            SqActive.transform.position += new Vector3(-21.7f, 0, 0);
         }
-        
+
+
     }
-    
+
 }

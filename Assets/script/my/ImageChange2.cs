@@ -20,8 +20,11 @@ public class ImageChange2 : MonoBehaviour
 
         if (GameObject.Find("Obutton").GetComponent<BtnActive>().BtnO == 1) //Obutton활성화일때
         {
-            Empty.sprite = InCorrect; //틀린 것으로 이미지 바꾸기
-            GameObject.Find("HeartCanvas").GetComponent<Heart>().life--;
+            if (Empty.sprite != NotPicture)
+            {
+                Empty.sprite = InCorrect; //틀린 것으로 이미지 바꾸기
+                GameObject.Find("HeartCanvas").GetComponent<Heart>().life--;
+            }
         }
         else
         {

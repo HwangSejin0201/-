@@ -9,16 +9,18 @@ public class UpS2 : MoveControlS2
     // Start is called before the first frame update
     public void OnMouseDown()
     {
+        
         SqActive.GetComponent<MoveControlS2>().IsSelect = 1;
 
-        if (SqActive.transform.position.y > 285.2f)
+        if (SqActive.transform.position.y > 560f)
         {
-            SqActive.transform.position += new Vector3(0, -147.98f, 0);
+            SqActive.transform.position = new Vector3(SqActive.transform.position.x, 277.94f, 0f);
         }
         else
         {
-            SqActive.transform.position += new Vector3(0, 10.6f, 0);
+            SqActive.transform.position += new Vector3(0, 20.5f, 0);
         }
+
 
     }
 
