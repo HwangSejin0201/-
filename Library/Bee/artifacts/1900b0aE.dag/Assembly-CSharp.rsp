@@ -379,6 +379,17 @@
 "Assets/script/my2/OnMouseDown1_S2.cs"
 "Assets/script/my2/RightS2.cs"
 "Assets/script/my2/UpS2.cs"
+"Assets/script/my3/Autoo_S4.cs"
+"Assets/script/my3/Distance2_S4.cs"
+"Assets/script/my3/Distance_S4.cs"
+"Assets/script/my3/DownS4.cs"
+"Assets/script/my3/ImageChange2_S4.cs"
+"Assets/script/my3/LeftS4.cs"
+"Assets/script/my3/MoveControlS4.cs"
+"Assets/script/my3/NumOutline_S4.cs"
+"Assets/script/my3/OnMouseDown1_S4.cs"
+"Assets/script/my3/RightS4.cs"
+"Assets/script/my3/UpS4.cs"
 "Assets/script/starting.cs"
 -langversion:9.0
 

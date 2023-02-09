@@ -24,8 +24,12 @@ public class ImageChange : MonoBehaviour
 
         if (GameObject.Find("Obutton").GetComponent<BtnActive>().BtnO == 1) //Obutton활성화일때
         {
-            Empty.sprite = Picture; //맞을 때의 이미지
-            gameObject.tag = "square3";
+            if (Empty.sprite != NotPicture)
+            {
+                Empty.sprite = Picture; //맞을 때의 이미지
+                gameObject.tag = "square3";
+            }
+
         }
         else
         {

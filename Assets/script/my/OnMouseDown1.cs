@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class OnMouseDown1_S2 : MonoBehaviour
+public class OnMouseDown1: MonoBehaviour
 {
     public GameObject GameObject1;
     void Start()
