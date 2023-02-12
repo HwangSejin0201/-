@@ -364,7 +364,19 @@
 "Assets/script/my/ImageChange.cs"
 "Assets/script/my/ImageChange2.cs"
 "Assets/script/my/Left.cs"
+"Assets/script/my/Location.cs"
 "Assets/script/my/MoveControl.cs"
+"Assets/script/my/my2/Autoo_S2.cs"
+"Assets/script/my/my2/Distance2_S2.cs"
+"Assets/script/my/my2/Distance_S2.cs"
+"Assets/script/my/my2/DownS2.cs"
+"Assets/script/my/my2/ImageChange2_S2.cs"
+"Assets/script/my/my2/LeftS2.cs"
+"Assets/script/my/my2/MoveControlS2.cs"
+"Assets/script/my/my2/NumOutline_S2.cs"
+"Assets/script/my/my2/OnMouseDown1_S2.cs"
+"Assets/script/my/my2/RightS2.cs"
+"Assets/script/my/my2/UpS2.cs"
 "Assets/script/my/NumOutline.cs"
 "Assets/script/my/Obutton.cs"
 "Assets/script/my/OnMouseDown1.cs"
@@ -376,6 +388,8 @@
 "Assets/script/RayCas.cs"
 "Assets/script/SoundManager.cs"
 "Assets/script/starting.cs"
+"Assets/sliding/HyperLuminal/SlidingTilePuzzle/Scripts/ST_PuzzleDisplay.cs"
+"Assets/sliding/HyperLuminal/SlidingTilePuzzle/Scripts/ST_PuzzleTile.cs"
 -langversion:9.0
 
 /deterministic
