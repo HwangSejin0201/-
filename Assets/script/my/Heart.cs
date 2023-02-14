@@ -5,7 +5,9 @@ using UnityEngine;
 public class Heart : MonoBehaviour
 {
     List<GameObject> list = new List<GameObject>();
-    public int life = 5; //Æ²¸° °³¼ö ¼¼´Â ÀåÄ¡
+    public int life = 5; //Æ²ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡
+    private GameObject over;
+
 
 
     // Start is called before the first frame update
@@ -29,8 +31,10 @@ public class Heart : MonoBehaviour
         for (int i = 0; i < (5-life) ; i++)
         {
             list[i].SetActive(false);
+            if (i==5) break;
         }
         
+
     }
 
     

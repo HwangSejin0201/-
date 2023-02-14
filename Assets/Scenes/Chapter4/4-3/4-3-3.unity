@@ -2751,13 +2751,13 @@ GameObject:
   - component: {fileID: 36924831}
   - component: {fileID: 36924830}
   - component: {fileID: 36924829}
+  - component: {fileID: 36924826}
   - component: {fileID: 36924828}
   - component: {fileID: 36924827}
-  - component: {fileID: 36924826}
   - component: {fileID: 36924825}
   m_Layer: 5
   m_Name: Image (8)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2811,7 +2811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 36924830}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -2885,9 +2885,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 36924825}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 36924826}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3583,13 +3583,13 @@ GameObject:
   - component: {fileID: 40467334}
   - component: {fileID: 40467333}
   - component: {fileID: 40467332}
+  - component: {fileID: 40467329}
   - component: {fileID: 40467331}
   - component: {fileID: 40467330}
-  - component: {fileID: 40467329}
   - component: {fileID: 40467328}
   m_Layer: 5
   m_Name: Image (5)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3643,7 +3643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 40467333}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -3717,9 +3717,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 40467328}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 40467329}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3867,13 +3867,13 @@ GameObject:
   - component: {fileID: 43408971}
   - component: {fileID: 43408970}
   - component: {fileID: 43408969}
+  - component: {fileID: 43408966}
   - component: {fileID: 43408968}
   - component: {fileID: 43408967}
-  - component: {fileID: 43408966}
   - component: {fileID: 43408965}
   m_Layer: 5
   m_Name: Image (10)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3927,7 +3927,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 43408970}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -4001,9 +4001,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 43408965}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 43408966}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4075,13 +4075,13 @@ GameObject:
   - component: {fileID: 45519210}
   - component: {fileID: 45519209}
   - component: {fileID: 45519208}
+  - component: {fileID: 45519205}
   - component: {fileID: 45519207}
   - component: {fileID: 45519206}
-  - component: {fileID: 45519205}
   - component: {fileID: 45519204}
   m_Layer: 5
   m_Name: Image (3)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4135,7 +4135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 45519209}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -4209,9 +4209,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 45519204}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 45519205}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4655,13 +4655,13 @@ GameObject:
   - component: {fileID: 50570894}
   - component: {fileID: 50570893}
   - component: {fileID: 50570892}
+  - component: {fileID: 50570889}
   - component: {fileID: 50570891}
   - component: {fileID: 50570890}
-  - component: {fileID: 50570889}
   - component: {fileID: 50570888}
   m_Layer: 5
   m_Name: Image (3)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4715,7 +4715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 50570893}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -4789,9 +4789,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 50570888}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 50570889}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5563,13 +5563,13 @@ GameObject:
   - component: {fileID: 64611449}
   - component: {fileID: 64611448}
   - component: {fileID: 64611447}
+  - component: {fileID: 64611444}
   - component: {fileID: 64611446}
   - component: {fileID: 64611445}
-  - component: {fileID: 64611444}
   - component: {fileID: 64611443}
   m_Layer: 5
   m_Name: Image (2)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5623,7 +5623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 64611448}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -5697,9 +5697,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 64611443}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 64611444}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6491,13 +6491,13 @@ GameObject:
   - component: {fileID: 88102814}
   - component: {fileID: 88102813}
   - component: {fileID: 88102812}
+  - component: {fileID: 88102809}
   - component: {fileID: 88102811}
   - component: {fileID: 88102810}
-  - component: {fileID: 88102809}
   - component: {fileID: 88102808}
   m_Layer: 5
   m_Name: Image (5)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6551,7 +6551,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 88102813}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -6625,9 +6625,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 88102808}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 88102809}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6699,13 +6699,13 @@ GameObject:
   - component: {fileID: 94846307}
   - component: {fileID: 94846306}
   - component: {fileID: 94846305}
+  - component: {fileID: 94846302}
   - component: {fileID: 94846304}
   - component: {fileID: 94846303}
-  - component: {fileID: 94846302}
   - component: {fileID: 94846301}
   m_Layer: 5
   m_Name: Image (10)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6759,7 +6759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 94846306}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -6833,9 +6833,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 94846301}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 94846302}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7815,13 +7815,13 @@ GameObject:
   - component: {fileID: 106994796}
   - component: {fileID: 106994795}
   - component: {fileID: 106994794}
+  - component: {fileID: 106994791}
   - component: {fileID: 106994793}
   - component: {fileID: 106994792}
-  - component: {fileID: 106994791}
   - component: {fileID: 106994790}
   m_Layer: 5
   m_Name: Image (6)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7875,7 +7875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 106994795}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -7949,9 +7949,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 106994790}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 106994791}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8231,13 +8231,13 @@ GameObject:
   - component: {fileID: 112222705}
   - component: {fileID: 112222704}
   - component: {fileID: 112222703}
+  - component: {fileID: 112222700}
   - component: {fileID: 112222702}
   - component: {fileID: 112222701}
-  - component: {fileID: 112222700}
   - component: {fileID: 112222699}
   m_Layer: 5
   m_Name: Image (6)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8291,7 +8291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 112222704}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -8365,9 +8365,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 112222699}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 112222700}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9347,13 +9347,13 @@ GameObject:
   - component: {fileID: 144169353}
   - component: {fileID: 144169352}
   - component: {fileID: 144169351}
+  - component: {fileID: 144169348}
   - component: {fileID: 144169350}
   - component: {fileID: 144169349}
-  - component: {fileID: 144169348}
   - component: {fileID: 144169347}
   m_Layer: 5
   m_Name: Image (1)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9407,7 +9407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 144169352}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -9481,9 +9481,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 144169347}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 144169348}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10446,13 +10446,13 @@ GameObject:
   - component: {fileID: 168214717}
   - component: {fileID: 168214716}
   - component: {fileID: 168214715}
+  - component: {fileID: 168214712}
   - component: {fileID: 168214714}
   - component: {fileID: 168214713}
-  - component: {fileID: 168214712}
   - component: {fileID: 168214711}
   m_Layer: 5
   m_Name: Image (6)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10506,7 +10506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 168214716}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -10580,9 +10580,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 168214711}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 168214712}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11070,13 +11070,13 @@ GameObject:
   - component: {fileID: 177002523}
   - component: {fileID: 177002522}
   - component: {fileID: 177002521}
+  - component: {fileID: 177002518}
   - component: {fileID: 177002520}
   - component: {fileID: 177002519}
-  - component: {fileID: 177002518}
   - component: {fileID: 177002517}
   m_Layer: 5
   m_Name: Image (4)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11130,7 +11130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 177002522}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -11204,9 +11204,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 177002517}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 177002518}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13116,13 +13116,13 @@ GameObject:
   - component: {fileID: 249350844}
   - component: {fileID: 249350843}
   - component: {fileID: 249350842}
+  - component: {fileID: 249350839}
   - component: {fileID: 249350841}
   - component: {fileID: 249350840}
-  - component: {fileID: 249350839}
   - component: {fileID: 249350838}
   m_Layer: 5
   m_Name: Image (3)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13176,7 +13176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 249350843}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -13250,9 +13250,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 249350838}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 249350839}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14308,13 +14308,13 @@ GameObject:
   - component: {fileID: 277022452}
   - component: {fileID: 277022451}
   - component: {fileID: 277022450}
+  - component: {fileID: 277022447}
   - component: {fileID: 277022449}
   - component: {fileID: 277022448}
-  - component: {fileID: 277022447}
   - component: {fileID: 277022446}
   m_Layer: 5
   m_Name: Image (17)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14368,7 +14368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 277022451}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -14442,9 +14442,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 277022446}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 277022447}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14724,13 +14724,13 @@ GameObject:
   - component: {fileID: 285085784}
   - component: {fileID: 285085783}
   - component: {fileID: 285085782}
+  - component: {fileID: 285085779}
   - component: {fileID: 285085781}
   - component: {fileID: 285085780}
-  - component: {fileID: 285085779}
   - component: {fileID: 285085778}
   m_Layer: 5
   m_Name: Image (8)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14784,7 +14784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 285085783}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -14858,9 +14858,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 285085778}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 285085779}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16408,13 +16408,13 @@ GameObject:
   - component: {fileID: 308515716}
   - component: {fileID: 308515715}
   - component: {fileID: 308515714}
+  - component: {fileID: 308515711}
   - component: {fileID: 308515713}
   - component: {fileID: 308515712}
-  - component: {fileID: 308515711}
   - component: {fileID: 308515710}
   m_Layer: 5
   m_Name: Image (8)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16468,7 +16468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 308515715}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -16542,9 +16542,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 308515710}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 308515711}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16824,13 +16824,13 @@ GameObject:
   - component: {fileID: 322797168}
   - component: {fileID: 322797167}
   - component: {fileID: 322797166}
+  - component: {fileID: 322797163}
   - component: {fileID: 322797165}
   - component: {fileID: 322797164}
-  - component: {fileID: 322797163}
   - component: {fileID: 322797162}
   m_Layer: 5
   m_Name: Image (9)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16884,7 +16884,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 322797167}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -16958,9 +16958,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 322797162}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 322797163}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -18149,13 +18149,13 @@ GameObject:
   - component: {fileID: 343964726}
   - component: {fileID: 343964725}
   - component: {fileID: 343964724}
+  - component: {fileID: 343964721}
   - component: {fileID: 343964723}
   - component: {fileID: 343964722}
-  - component: {fileID: 343964721}
   - component: {fileID: 343964720}
   m_Layer: 5
   m_Name: Image (3)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18209,7 +18209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 343964725}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -18283,9 +18283,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 343964720}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 343964721}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -20583,13 +20583,13 @@ GameObject:
   - component: {fileID: 410122172}
   - component: {fileID: 410122171}
   - component: {fileID: 410122170}
+  - component: {fileID: 410122167}
   - component: {fileID: 410122169}
   - component: {fileID: 410122168}
-  - component: {fileID: 410122167}
   - component: {fileID: 410122166}
   m_Layer: 5
   m_Name: Image (8)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20643,7 +20643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 410122171}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -20717,9 +20717,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 410122166}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 410122167}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -22479,13 +22479,13 @@ GameObject:
   - component: {fileID: 455108704}
   - component: {fileID: 455108703}
   - component: {fileID: 455108702}
+  - component: {fileID: 455108699}
   - component: {fileID: 455108701}
   - component: {fileID: 455108700}
-  - component: {fileID: 455108699}
   - component: {fileID: 455108698}
   m_Layer: 5
   m_Name: Image (2)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22539,7 +22539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 455108703}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -22613,9 +22613,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 455108698}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 455108699}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -22971,13 +22971,13 @@ GameObject:
   - component: {fileID: 466024403}
   - component: {fileID: 466024402}
   - component: {fileID: 466024401}
+  - component: {fileID: 466024398}
   - component: {fileID: 466024400}
   - component: {fileID: 466024399}
-  - component: {fileID: 466024398}
   - component: {fileID: 466024397}
   m_Layer: 5
   m_Name: Image (5)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23031,7 +23031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 466024402}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -23105,9 +23105,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 466024397}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 466024398}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -24812,13 +24812,13 @@ GameObject:
   - component: {fileID: 495680139}
   - component: {fileID: 495680138}
   - component: {fileID: 495680137}
+  - component: {fileID: 495680134}
   - component: {fileID: 495680136}
   - component: {fileID: 495680135}
-  - component: {fileID: 495680134}
   - component: {fileID: 495680133}
   m_Layer: 5
   m_Name: Image (16)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24872,7 +24872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 495680138}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -24946,9 +24946,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 495680133}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 495680134}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -27716,13 +27716,13 @@ GameObject:
   - component: {fileID: 578738410}
   - component: {fileID: 578738409}
   - component: {fileID: 578738408}
+  - component: {fileID: 578738405}
   - component: {fileID: 578738407}
   - component: {fileID: 578738406}
-  - component: {fileID: 578738405}
   - component: {fileID: 578738404}
   m_Layer: 5
   m_Name: Image (1)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27776,7 +27776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 578738409}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -27850,9 +27850,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 578738404}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 578738405}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -29664,13 +29664,13 @@ GameObject:
   - component: {fileID: 630347795}
   - component: {fileID: 630347794}
   - component: {fileID: 630347793}
+  - component: {fileID: 630347790}
   - component: {fileID: 630347792}
   - component: {fileID: 630347791}
-  - component: {fileID: 630347790}
   - component: {fileID: 630347789}
   m_Layer: 5
   m_Name: Image (3)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29724,7 +29724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 630347794}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -29798,9 +29798,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 630347789}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 630347790}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -30288,13 +30288,13 @@ GameObject:
   - component: {fileID: 649946971}
   - component: {fileID: 649946970}
   - component: {fileID: 649946969}
+  - component: {fileID: 649946966}
   - component: {fileID: 649946968}
   - component: {fileID: 649946967}
-  - component: {fileID: 649946966}
   - component: {fileID: 649946965}
   m_Layer: 5
   m_Name: Image (9)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30348,7 +30348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 649946970}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -30422,9 +30422,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 649946965}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 649946966}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -30574,13 +30574,13 @@ GameObject:
   - component: {fileID: 657856262}
   - component: {fileID: 657856261}
   - component: {fileID: 657856260}
+  - component: {fileID: 657856257}
   - component: {fileID: 657856259}
   - component: {fileID: 657856258}
-  - component: {fileID: 657856257}
   - component: {fileID: 657856256}
   m_Layer: 5
   m_Name: Image (8)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30634,7 +30634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 657856261}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -30708,9 +30708,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 657856256}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 657856257}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -30974,13 +30974,13 @@ GameObject:
   - component: {fileID: 669202275}
   - component: {fileID: 669202274}
   - component: {fileID: 669202273}
+  - component: {fileID: 669202270}
   - component: {fileID: 669202272}
   - component: {fileID: 669202271}
-  - component: {fileID: 669202270}
   - component: {fileID: 669202269}
   m_Layer: 5
   m_Name: Image (9)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31034,7 +31034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 669202274}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -31108,9 +31108,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 669202269}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 669202270}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -31674,13 +31674,13 @@ GameObject:
   - component: {fileID: 676793169}
   - component: {fileID: 676793168}
   - component: {fileID: 676793167}
+  - component: {fileID: 676793164}
   - component: {fileID: 676793166}
   - component: {fileID: 676793165}
-  - component: {fileID: 676793164}
   - component: {fileID: 676793163}
   m_Layer: 5
   m_Name: Image (18)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31734,7 +31734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 676793168}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -31808,9 +31808,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 676793163}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 676793164}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -32359,13 +32359,13 @@ GameObject:
   - component: {fileID: 712539607}
   - component: {fileID: 712539606}
   - component: {fileID: 712539605}
+  - component: {fileID: 712539602}
   - component: {fileID: 712539604}
   - component: {fileID: 712539603}
-  - component: {fileID: 712539602}
   - component: {fileID: 712539601}
   m_Layer: 5
   m_Name: Image (7)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32419,7 +32419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 712539606}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -32493,9 +32493,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 712539601}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 712539602}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -33268,13 +33268,13 @@ GameObject:
   - component: {fileID: 723960739}
   - component: {fileID: 723960738}
   - component: {fileID: 723960737}
+  - component: {fileID: 723960734}
   - component: {fileID: 723960736}
   - component: {fileID: 723960735}
-  - component: {fileID: 723960734}
   - component: {fileID: 723960733}
   m_Layer: 5
   m_Name: Image (11)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33328,7 +33328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 723960738}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -33402,9 +33402,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 723960733}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 723960734}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -33892,13 +33892,13 @@ GameObject:
   - component: {fileID: 749728062}
   - component: {fileID: 749728061}
   - component: {fileID: 749728060}
+  - component: {fileID: 749728057}
   - component: {fileID: 749728059}
   - component: {fileID: 749728058}
-  - component: {fileID: 749728057}
   - component: {fileID: 749728056}
   m_Layer: 5
   m_Name: Image (8)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34026,9 +34026,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 749728056}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 749728057}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -35180,13 +35180,13 @@ GameObject:
   - component: {fileID: 780241287}
   - component: {fileID: 780241286}
   - component: {fileID: 780241285}
+  - component: {fileID: 780241282}
   - component: {fileID: 780241284}
   - component: {fileID: 780241283}
-  - component: {fileID: 780241282}
   - component: {fileID: 780241281}
   m_Layer: 5
   m_Name: Image (16)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35240,7 +35240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 780241286}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -35314,9 +35314,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 780241281}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 780241282}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -35966,13 +35966,13 @@ GameObject:
   - component: {fileID: 790912012}
   - component: {fileID: 790912011}
   - component: {fileID: 790912010}
+  - component: {fileID: 790912007}
   - component: {fileID: 790912009}
   - component: {fileID: 790912008}
-  - component: {fileID: 790912007}
   - component: {fileID: 790912006}
   m_Layer: 5
   m_Name: Image (2)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36026,7 +36026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 790912011}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -36100,9 +36100,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 790912006}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 790912007}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -36174,13 +36174,13 @@ GameObject:
   - component: {fileID: 798471007}
   - component: {fileID: 798471006}
   - component: {fileID: 798471005}
+  - component: {fileID: 798471002}
   - component: {fileID: 798471004}
   - component: {fileID: 798471003}
-  - component: {fileID: 798471002}
   - component: {fileID: 798471001}
   m_Layer: 5
   m_Name: Image (19)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36234,7 +36234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 798471006}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -36308,9 +36308,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 798471001}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 798471002}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -37158,13 +37158,13 @@ GameObject:
   - component: {fileID: 816651976}
   - component: {fileID: 816651975}
   - component: {fileID: 816651974}
+  - component: {fileID: 816651971}
   - component: {fileID: 816651973}
   - component: {fileID: 816651972}
-  - component: {fileID: 816651971}
   - component: {fileID: 816651970}
   m_Layer: 5
   m_Name: Image (16)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37218,7 +37218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 816651975}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -37292,9 +37292,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 816651970}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 816651971}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -37538,13 +37538,13 @@ GameObject:
   - component: {fileID: 828700946}
   - component: {fileID: 828700945}
   - component: {fileID: 828700944}
+  - component: {fileID: 828700941}
   - component: {fileID: 828700943}
   - component: {fileID: 828700942}
-  - component: {fileID: 828700941}
   - component: {fileID: 828700940}
   m_Layer: 5
   m_Name: Image (1)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37598,7 +37598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 828700945}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -37672,9 +37672,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 828700940}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 828700941}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -38446,13 +38446,13 @@ GameObject:
   - component: {fileID: 845394106}
   - component: {fileID: 845394105}
   - component: {fileID: 845394104}
+  - component: {fileID: 845394101}
   - component: {fileID: 845394103}
   - component: {fileID: 845394102}
-  - component: {fileID: 845394101}
   - component: {fileID: 845394100}
   m_Layer: 5
   m_Name: Image (2)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38506,7 +38506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 845394105}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -38580,9 +38580,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 845394100}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 845394101}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -39070,13 +39070,13 @@ GameObject:
   - component: {fileID: 853404073}
   - component: {fileID: 853404072}
   - component: {fileID: 853404071}
+  - component: {fileID: 853404068}
   - component: {fileID: 853404070}
   - component: {fileID: 853404069}
-  - component: {fileID: 853404068}
   - component: {fileID: 853404067}
   m_Layer: 5
   m_Name: Image (4)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39130,7 +39130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 853404072}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -39204,9 +39204,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 853404067}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 853404068}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -39562,13 +39562,13 @@ GameObject:
   - component: {fileID: 866697269}
   - component: {fileID: 866697268}
   - component: {fileID: 866697267}
+  - component: {fileID: 866697264}
   - component: {fileID: 866697266}
   - component: {fileID: 866697265}
-  - component: {fileID: 866697264}
   - component: {fileID: 866697263}
   m_Layer: 5
   m_Name: Image (16)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39622,7 +39622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 866697268}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -39696,9 +39696,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 866697263}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 866697264}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -41550,13 +41550,13 @@ GameObject:
   - component: {fileID: 898239297}
   - component: {fileID: 898239296}
   - component: {fileID: 898239295}
+  - component: {fileID: 898239292}
   - component: {fileID: 898239294}
   - component: {fileID: 898239293}
-  - component: {fileID: 898239292}
   - component: {fileID: 898239291}
   m_Layer: 5
   m_Name: Image (6)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41610,7 +41610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 898239296}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -41684,9 +41684,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 898239291}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 898239292}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -42686,13 +42686,13 @@ GameObject:
   - component: {fileID: 912545064}
   - component: {fileID: 912545063}
   - component: {fileID: 912545062}
+  - component: {fileID: 912545059}
   - component: {fileID: 912545061}
   - component: {fileID: 912545060}
-  - component: {fileID: 912545059}
   - component: {fileID: 912545058}
   m_Layer: 5
   m_Name: Image (7)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42746,7 +42746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 912545063}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -42820,9 +42820,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 912545058}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 912545059}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -43102,13 +43102,13 @@ GameObject:
   - component: {fileID: 917731716}
   - component: {fileID: 917731715}
   - component: {fileID: 917731714}
+  - component: {fileID: 917731711}
   - component: {fileID: 917731713}
   - component: {fileID: 917731712}
-  - component: {fileID: 917731711}
   - component: {fileID: 917731710}
   m_Layer: 5
   m_Name: Image (15)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43162,7 +43162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 917731715}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -43236,9 +43236,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 917731710}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 917731711}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -44142,13 +44142,13 @@ GameObject:
   - component: {fileID: 928534194}
   - component: {fileID: 928534193}
   - component: {fileID: 928534192}
+  - component: {fileID: 928534189}
   - component: {fileID: 928534191}
   - component: {fileID: 928534190}
-  - component: {fileID: 928534189}
   - component: {fileID: 928534188}
   m_Layer: 5
   m_Name: Image (1)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44202,7 +44202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 928534193}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -44276,9 +44276,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 928534188}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 928534189}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -44842,13 +44842,13 @@ GameObject:
   - component: {fileID: 949292599}
   - component: {fileID: 949292598}
   - component: {fileID: 949292597}
+  - component: {fileID: 949292594}
   - component: {fileID: 949292596}
   - component: {fileID: 949292595}
-  - component: {fileID: 949292594}
   - component: {fileID: 949292593}
   m_Layer: 5
   m_Name: Image (15)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44902,7 +44902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 949292598}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -44976,9 +44976,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 949292593}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 949292594}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -45050,13 +45050,13 @@ GameObject:
   - component: {fileID: 950740437}
   - component: {fileID: 950740436}
   - component: {fileID: 950740435}
+  - component: {fileID: 950740432}
   - component: {fileID: 950740434}
   - component: {fileID: 950740433}
-  - component: {fileID: 950740432}
   - component: {fileID: 950740431}
   m_Layer: 5
   m_Name: Image (1)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45110,7 +45110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 950740436}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -45184,9 +45184,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 950740431}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 950740432}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -46167,13 +46167,13 @@ GameObject:
   - component: {fileID: 974205856}
   - component: {fileID: 974205855}
   - component: {fileID: 974205854}
+  - component: {fileID: 974205851}
   - component: {fileID: 974205853}
   - component: {fileID: 974205852}
-  - component: {fileID: 974205851}
   - component: {fileID: 974205850}
   m_Layer: 5
   m_Name: Image (7)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46227,7 +46227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 974205855}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -46301,9 +46301,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 974205850}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 974205851}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -48970,13 +48970,13 @@ GameObject:
   - component: {fileID: 1054498653}
   - component: {fileID: 1054498652}
   - component: {fileID: 1054498651}
+  - component: {fileID: 1054498648}
   - component: {fileID: 1054498650}
   - component: {fileID: 1054498649}
-  - component: {fileID: 1054498648}
   - component: {fileID: 1054498647}
   m_Layer: 5
   m_Name: Image (12)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49030,7 +49030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1054498652}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -49104,9 +49104,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1054498647}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1054498648}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -50163,13 +50163,13 @@ GameObject:
   - component: {fileID: 1076124747}
   - component: {fileID: 1076124746}
   - component: {fileID: 1076124745}
+  - component: {fileID: 1076124742}
   - component: {fileID: 1076124744}
   - component: {fileID: 1076124743}
-  - component: {fileID: 1076124742}
   - component: {fileID: 1076124741}
   m_Layer: 5
   m_Name: Image (2)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50223,7 +50223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1076124746}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -50297,9 +50297,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1076124741}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1076124742}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -51203,13 +51203,13 @@ GameObject:
   - component: {fileID: 1081613884}
   - component: {fileID: 1081613883}
   - component: {fileID: 1081613882}
+  - component: {fileID: 1081613879}
   - component: {fileID: 1081613881}
   - component: {fileID: 1081613880}
-  - component: {fileID: 1081613879}
   - component: {fileID: 1081613878}
   m_Layer: 5
   m_Name: Image (8)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51263,7 +51263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1081613883}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -51337,9 +51337,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1081613878}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1081613879}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -53151,13 +53151,13 @@ GameObject:
   - component: {fileID: 1123364039}
   - component: {fileID: 1123364038}
   - component: {fileID: 1123364037}
+  - component: {fileID: 1123364034}
   - component: {fileID: 1123364036}
   - component: {fileID: 1123364035}
-  - component: {fileID: 1123364034}
   - component: {fileID: 1123364033}
   m_Layer: 5
   m_Name: Image (1)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53211,7 +53211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1123364038}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -53285,9 +53285,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1123364033}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1123364034}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -55289,13 +55289,13 @@ GameObject:
   - component: {fileID: 1166842875}
   - component: {fileID: 1166842874}
   - component: {fileID: 1166842873}
+  - component: {fileID: 1166842870}
   - component: {fileID: 1166842872}
   - component: {fileID: 1166842871}
-  - component: {fileID: 1166842870}
   - component: {fileID: 1166842869}
   m_Layer: 5
   m_Name: Image (4)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55349,7 +55349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1166842874}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -55423,9 +55423,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1166842869}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1166842870}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -56197,13 +56197,13 @@ GameObject:
   - component: {fileID: 1183353560}
   - component: {fileID: 1183353559}
   - component: {fileID: 1183353558}
+  - component: {fileID: 1183353555}
   - component: {fileID: 1183353557}
   - component: {fileID: 1183353556}
-  - component: {fileID: 1183353555}
   - component: {fileID: 1183353554}
   m_Layer: 5
   m_Name: Image (2)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56257,7 +56257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1183353559}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -56331,9 +56331,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1183353554}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1183353555}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -59647,13 +59647,13 @@ GameObject:
   - component: {fileID: 1266293147}
   - component: {fileID: 1266293146}
   - component: {fileID: 1266293145}
+  - component: {fileID: 1266293142}
   - component: {fileID: 1266293144}
   - component: {fileID: 1266293143}
-  - component: {fileID: 1266293142}
   - component: {fileID: 1266293141}
   m_Layer: 5
   m_Name: Image (5)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59707,7 +59707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1266293146}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -59781,9 +59781,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1266293141}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1266293142}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -59855,13 +59855,13 @@ GameObject:
   - component: {fileID: 1266337851}
   - component: {fileID: 1266337850}
   - component: {fileID: 1266337849}
+  - component: {fileID: 1266337846}
   - component: {fileID: 1266337848}
   - component: {fileID: 1266337847}
-  - component: {fileID: 1266337846}
   - component: {fileID: 1266337845}
   m_Layer: 5
   m_Name: Image (9)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59915,7 +59915,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1266337850}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -59989,9 +59989,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1266337845}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1266337846}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -62049,13 +62049,13 @@ GameObject:
   - component: {fileID: 1312306241}
   - component: {fileID: 1312306240}
   - component: {fileID: 1312306239}
+  - component: {fileID: 1312306236}
   - component: {fileID: 1312306238}
   - component: {fileID: 1312306237}
-  - component: {fileID: 1312306236}
   - component: {fileID: 1312306235}
   m_Layer: 5
   m_Name: Image (4)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62109,7 +62109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1312306240}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -62183,9 +62183,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1312306235}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1312306236}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -62541,13 +62541,13 @@ GameObject:
   - component: {fileID: 1322878007}
   - component: {fileID: 1322878006}
   - component: {fileID: 1322878005}
+  - component: {fileID: 1322878002}
   - component: {fileID: 1322878004}
   - component: {fileID: 1322878003}
-  - component: {fileID: 1322878002}
   - component: {fileID: 1322878001}
   m_Layer: 5
   m_Name: Image (1)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62601,7 +62601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1322878006}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -62675,9 +62675,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1322878001}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1322878002}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -64740,13 +64740,13 @@ GameObject:
   - component: {fileID: 1371839069}
   - component: {fileID: 1371839068}
   - component: {fileID: 1371839067}
+  - component: {fileID: 1371839064}
   - component: {fileID: 1371839066}
   - component: {fileID: 1371839065}
-  - component: {fileID: 1371839064}
   - component: {fileID: 1371839063}
   m_Layer: 5
   m_Name: Image (4)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64800,7 +64800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1371839068}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -64874,9 +64874,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1371839063}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1371839064}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -67546,13 +67546,13 @@ GameObject:
   - component: {fileID: 1452135347}
   - component: {fileID: 1452135346}
   - component: {fileID: 1452135345}
+  - component: {fileID: 1452135342}
   - component: {fileID: 1452135344}
   - component: {fileID: 1452135343}
-  - component: {fileID: 1452135342}
   - component: {fileID: 1452135341}
   m_Layer: 5
   m_Name: Image (19)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67606,7 +67606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1452135346}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -67680,9 +67680,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1452135341}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1452135342}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -68170,13 +68170,13 @@ GameObject:
   - component: {fileID: 1466784439}
   - component: {fileID: 1466784438}
   - component: {fileID: 1466784437}
+  - component: {fileID: 1466784434}
   - component: {fileID: 1466784436}
   - component: {fileID: 1466784435}
-  - component: {fileID: 1466784434}
   - component: {fileID: 1466784433}
   m_Layer: 5
   m_Name: Image (6)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68230,7 +68230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1466784438}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -68304,9 +68304,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1466784433}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1466784434}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -68454,13 +68454,13 @@ GameObject:
   - component: {fileID: 1471798969}
   - component: {fileID: 1471798968}
   - component: {fileID: 1471798967}
+  - component: {fileID: 1471798964}
   - component: {fileID: 1471798966}
   - component: {fileID: 1471798965}
-  - component: {fileID: 1471798964}
   - component: {fileID: 1471798963}
   m_Layer: 5
   m_Name: Image (9)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68514,7 +68514,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1471798968}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -68588,9 +68588,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1471798963}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1471798964}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -69362,13 +69362,13 @@ GameObject:
   - component: {fileID: 1481847263}
   - component: {fileID: 1481847262}
   - component: {fileID: 1481847261}
+  - component: {fileID: 1481847258}
   - component: {fileID: 1481847260}
   - component: {fileID: 1481847259}
-  - component: {fileID: 1481847258}
   - component: {fileID: 1481847257}
   m_Layer: 5
   m_Name: Image (1)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69422,7 +69422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1481847262}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -69496,9 +69496,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1481847257}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1481847258}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -71103,13 +71103,13 @@ GameObject:
   - component: {fileID: 1505243098}
   - component: {fileID: 1505243097}
   - component: {fileID: 1505243096}
+  - component: {fileID: 1505243093}
   - component: {fileID: 1505243095}
   - component: {fileID: 1505243094}
-  - component: {fileID: 1505243093}
   - component: {fileID: 1505243092}
   m_Layer: 5
   m_Name: Image (3)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71163,7 +71163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1505243097}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -71237,9 +71237,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1505243092}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1505243093}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -72219,13 +72219,13 @@ GameObject:
   - component: {fileID: 1527253560}
   - component: {fileID: 1527253559}
   - component: {fileID: 1527253558}
+  - component: {fileID: 1527253555}
   - component: {fileID: 1527253557}
   - component: {fileID: 1527253556}
-  - component: {fileID: 1527253555}
   - component: {fileID: 1527253554}
   m_Layer: 5
   m_Name: Image (17)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72279,7 +72279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1527253559}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -72353,9 +72353,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1527253554}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1527253555}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -72919,13 +72919,13 @@ GameObject:
   - component: {fileID: 1540701729}
   - component: {fileID: 1540701728}
   - component: {fileID: 1540701727}
+  - component: {fileID: 1540701724}
   - component: {fileID: 1540701726}
   - component: {fileID: 1540701725}
-  - component: {fileID: 1540701724}
   - component: {fileID: 1540701723}
   m_Layer: 5
   m_Name: Image (1)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72979,7 +72979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1540701728}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -73053,9 +73053,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1540701723}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1540701724}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -73413,13 +73413,13 @@ GameObject:
   - component: {fileID: 1541829224}
   - component: {fileID: 1541829223}
   - component: {fileID: 1541829222}
+  - component: {fileID: 1541829219}
   - component: {fileID: 1541829221}
   - component: {fileID: 1541829220}
-  - component: {fileID: 1541829219}
   - component: {fileID: 1541829218}
   m_Layer: 5
   m_Name: Image (3)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73473,7 +73473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1541829223}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -73547,9 +73547,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1541829218}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1541829219}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -74531,13 +74531,13 @@ GameObject:
   - component: {fileID: 1554923269}
   - component: {fileID: 1554923268}
   - component: {fileID: 1554923267}
+  - component: {fileID: 1554923264}
   - component: {fileID: 1554923266}
   - component: {fileID: 1554923265}
-  - component: {fileID: 1554923264}
   - component: {fileID: 1554923263}
   m_Layer: 5
   m_Name: Image (2)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74591,7 +74591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1554923268}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -74665,9 +74665,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1554923263}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1554923264}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -75363,13 +75363,13 @@ GameObject:
   - component: {fileID: 1573576775}
   - component: {fileID: 1573576774}
   - component: {fileID: 1573576773}
+  - component: {fileID: 1573576770}
   - component: {fileID: 1573576772}
   - component: {fileID: 1573576771}
-  - component: {fileID: 1573576770}
   - component: {fileID: 1573576769}
   m_Layer: 5
   m_Name: Image (20)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75423,7 +75423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1573576774}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -75497,9 +75497,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1573576769}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1573576770}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -75779,13 +75779,13 @@ GameObject:
   - component: {fileID: 1579645192}
   - component: {fileID: 1579645191}
   - component: {fileID: 1579645190}
+  - component: {fileID: 1579645187}
   - component: {fileID: 1579645189}
   - component: {fileID: 1579645188}
-  - component: {fileID: 1579645187}
   - component: {fileID: 1579645186}
   m_Layer: 5
   m_Name: Image (3)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75839,7 +75839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1579645191}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -75913,9 +75913,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1579645186}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1579645187}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -76479,13 +76479,13 @@ GameObject:
   - component: {fileID: 1612997257}
   - component: {fileID: 1612997256}
   - component: {fileID: 1612997255}
+  - component: {fileID: 1612997252}
   - component: {fileID: 1612997254}
   - component: {fileID: 1612997253}
-  - component: {fileID: 1612997252}
   - component: {fileID: 1612997251}
   m_Layer: 5
   m_Name: Image (5)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76539,7 +76539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1612997256}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -76613,9 +76613,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1612997251}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1612997252}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -77311,13 +77311,13 @@ GameObject:
   - component: {fileID: 1623950521}
   - component: {fileID: 1623950520}
   - component: {fileID: 1623950519}
+  - component: {fileID: 1623950516}
   - component: {fileID: 1623950518}
   - component: {fileID: 1623950517}
-  - component: {fileID: 1623950516}
   - component: {fileID: 1623950515}
   m_Layer: 5
   m_Name: Image (7)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77371,7 +77371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1623950520}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -77445,9 +77445,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1623950515}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1623950516}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -77595,13 +77595,13 @@ GameObject:
   - component: {fileID: 1649991551}
   - component: {fileID: 1649991550}
   - component: {fileID: 1649991549}
+  - component: {fileID: 1649991546}
   - component: {fileID: 1649991548}
   - component: {fileID: 1649991547}
-  - component: {fileID: 1649991546}
   - component: {fileID: 1649991545}
   m_Layer: 5
   m_Name: Image (11)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77655,7 +77655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1649991550}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -77729,9 +77729,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1649991545}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1649991546}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -77880,13 +77880,13 @@ GameObject:
   - component: {fileID: 1651869691}
   - component: {fileID: 1651869690}
   - component: {fileID: 1651869689}
+  - component: {fileID: 1651869686}
   - component: {fileID: 1651869688}
   - component: {fileID: 1651869687}
-  - component: {fileID: 1651869686}
   - component: {fileID: 1651869685}
   m_Layer: 5
   m_Name: Image (4)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77940,7 +77940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1651869690}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -78014,9 +78014,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1651869685}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1651869686}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -79851,13 +79851,13 @@ GameObject:
   - component: {fileID: 1683875232}
   - component: {fileID: 1683875231}
   - component: {fileID: 1683875230}
+  - component: {fileID: 1683875227}
   - component: {fileID: 1683875229}
   - component: {fileID: 1683875228}
-  - component: {fileID: 1683875227}
   - component: {fileID: 1683875226}
   m_Layer: 5
   m_Name: Image (1)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79911,7 +79911,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1683875231}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -79985,9 +79985,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1683875226}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1683875227}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -80059,13 +80059,13 @@ GameObject:
   - component: {fileID: 1685476325}
   - component: {fileID: 1685476324}
   - component: {fileID: 1685476323}
+  - component: {fileID: 1685476320}
   - component: {fileID: 1685476322}
   - component: {fileID: 1685476321}
-  - component: {fileID: 1685476320}
   - component: {fileID: 1685476319}
   m_Layer: 5
   m_Name: Image (5)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80119,7 +80119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1685476324}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -80193,9 +80193,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1685476319}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1685476320}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -80267,13 +80267,13 @@ GameObject:
   - component: {fileID: 1688328497}
   - component: {fileID: 1688328496}
   - component: {fileID: 1688328495}
+  - component: {fileID: 1688328492}
   - component: {fileID: 1688328494}
   - component: {fileID: 1688328493}
-  - component: {fileID: 1688328492}
   - component: {fileID: 1688328491}
   m_Layer: 5
   m_Name: Image (2)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80327,7 +80327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1688328496}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -80401,9 +80401,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1688328491}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1688328492}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -81555,13 +81555,13 @@ GameObject:
   - component: {fileID: 1738757522}
   - component: {fileID: 1738757521}
   - component: {fileID: 1738757520}
+  - component: {fileID: 1738757517}
   - component: {fileID: 1738757519}
   - component: {fileID: 1738757518}
-  - component: {fileID: 1738757517}
   - component: {fileID: 1738757516}
   m_Layer: 5
   m_Name: Image (4)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81615,7 +81615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1738757521}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -81689,9 +81689,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1738757516}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1738757517}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -83987,13 +83987,13 @@ GameObject:
   - component: {fileID: 1804061390}
   - component: {fileID: 1804061389}
   - component: {fileID: 1804061388}
+  - component: {fileID: 1804061385}
   - component: {fileID: 1804061387}
   - component: {fileID: 1804061386}
-  - component: {fileID: 1804061385}
   - component: {fileID: 1804061384}
   m_Layer: 5
   m_Name: Image (9)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84047,7 +84047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1804061389}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -84121,9 +84121,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1804061384}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1804061385}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -84971,13 +84971,13 @@ GameObject:
   - component: {fileID: 1836470479}
   - component: {fileID: 1836470478}
   - component: {fileID: 1836470477}
+  - component: {fileID: 1836470474}
   - component: {fileID: 1836470476}
   - component: {fileID: 1836470475}
-  - component: {fileID: 1836470474}
   - component: {fileID: 1836470473}
   m_Layer: 5
   m_Name: Image (5)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85031,7 +85031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1836470478}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -85105,9 +85105,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1836470473}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1836470474}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -85387,13 +85387,13 @@ GameObject:
   - component: {fileID: 1845459691}
   - component: {fileID: 1845459690}
   - component: {fileID: 1845459689}
+  - component: {fileID: 1845459686}
   - component: {fileID: 1845459688}
   - component: {fileID: 1845459687}
-  - component: {fileID: 1845459686}
   - component: {fileID: 1845459685}
   m_Layer: 5
   m_Name: Image (4)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85447,7 +85447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1845459690}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -85521,9 +85521,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1845459685}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1845459686}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -89524,13 +89524,13 @@ GameObject:
   - component: {fileID: 1938670046}
   - component: {fileID: 1938670045}
   - component: {fileID: 1938670044}
+  - component: {fileID: 1938670041}
   - component: {fileID: 1938670043}
   - component: {fileID: 1938670042}
-  - component: {fileID: 1938670041}
   - component: {fileID: 1938670040}
   m_Layer: 5
   m_Name: Image (18)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89584,7 +89584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1938670045}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -89658,9 +89658,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1938670040}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1938670041}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -89732,13 +89732,13 @@ GameObject:
   - component: {fileID: 1941402197}
   - component: {fileID: 1941402196}
   - component: {fileID: 1941402195}
+  - component: {fileID: 1941402192}
   - component: {fileID: 1941402194}
   - component: {fileID: 1941402193}
-  - component: {fileID: 1941402192}
   - component: {fileID: 1941402191}
   m_Layer: 5
   m_Name: Image (7)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89792,7 +89792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1941402196}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -89866,9 +89866,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1941402191}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1941402192}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -90434,13 +90434,13 @@ GameObject:
   - component: {fileID: 1952801529}
   - component: {fileID: 1952801528}
   - component: {fileID: 1952801527}
+  - component: {fileID: 1952801524}
   - component: {fileID: 1952801526}
   - component: {fileID: 1952801525}
-  - component: {fileID: 1952801524}
   - component: {fileID: 1952801523}
   m_Layer: 5
   m_Name: Image (6)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90494,7 +90494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1952801528}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -90568,9 +90568,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1952801523}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1952801524}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -92215,13 +92215,13 @@ GameObject:
   - component: {fileID: 1991557818}
   - component: {fileID: 1991557817}
   - component: {fileID: 1991557816}
+  - component: {fileID: 1991557813}
   - component: {fileID: 1991557815}
   - component: {fileID: 1991557814}
-  - component: {fileID: 1991557813}
   - component: {fileID: 1991557812}
   m_Layer: 5
   m_Name: Image (17)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92275,7 +92275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1991557817}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -92349,9 +92349,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1991557812}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1991557813}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -92423,13 +92423,13 @@ GameObject:
   - component: {fileID: 1995705329}
   - component: {fileID: 1995705328}
   - component: {fileID: 1995705327}
+  - component: {fileID: 1995705324}
   - component: {fileID: 1995705326}
   - component: {fileID: 1995705325}
-  - component: {fileID: 1995705324}
   - component: {fileID: 1995705323}
   m_Layer: 5
   m_Name: Image (17)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92483,7 +92483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 1995705328}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -92557,9 +92557,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1995705323}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 1995705324}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -94281,13 +94281,13 @@ GameObject:
   - component: {fileID: 2060031517}
   - component: {fileID: 2060031516}
   - component: {fileID: 2060031515}
+  - component: {fileID: 2060031512}
   - component: {fileID: 2060031514}
   - component: {fileID: 2060031513}
-  - component: {fileID: 2060031512}
   - component: {fileID: 2060031511}
   m_Layer: 5
   m_Name: Image (2)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94341,7 +94341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 2060031516}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -94415,9 +94415,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2060031511}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 2060031512}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -94774,13 +94774,13 @@ GameObject:
   - component: {fileID: 2073636035}
   - component: {fileID: 2073636034}
   - component: {fileID: 2073636033}
+  - component: {fileID: 2073636030}
   - component: {fileID: 2073636032}
   - component: {fileID: 2073636031}
-  - component: {fileID: 2073636030}
   - component: {fileID: 2073636029}
   m_Layer: 5
   m_Name: Image (18)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94834,7 +94834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 2073636034}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -94908,9 +94908,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2073636029}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 2073636030}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -97648,13 +97648,13 @@ GameObject:
   - component: {fileID: 2132753444}
   - component: {fileID: 2132753443}
   - component: {fileID: 2132753442}
+  - component: {fileID: 2132753439}
   - component: {fileID: 2132753441}
   - component: {fileID: 2132753440}
-  - component: {fileID: 2132753439}
   - component: {fileID: 2132753438}
   m_Layer: 5
   m_Name: Image (17)
-  m_TagString: square
+  m_TagString: square2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97708,7 +97708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dddacffdbb921b45a806baf8cc8f11a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Empty: {fileID: 0}
+  Empty: {fileID: 2132753443}
   Picture: {fileID: 1138218023, guid: 3a6f7e7108bf0b84c8da125ab5f4621e, type: 3}
   NotPicture: {fileID: 758036813, guid: 693e05a414abca64b9cb29c672a2a166, type: 3}
   Return: {fileID: 0}
@@ -97782,9 +97782,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2132753438}
-        m_TargetAssemblyTypeName: ImageChange2_S4, Assembly-CSharp
-        m_MethodName: ChangeImageX
+      - m_Target: {fileID: 2132753439}
+        m_TargetAssemblyTypeName: ImageChange, Assembly-CSharp
+        m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
