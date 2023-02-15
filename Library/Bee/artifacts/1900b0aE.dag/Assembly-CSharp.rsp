@@ -401,6 +401,7 @@
 "Assets/script/starting.cs"
 "Assets/sliding/HyperLuminal/SlidingTilePuzzle/Scripts/ST_PuzzleDisplay.cs"
 "Assets/sliding/HyperLuminal/SlidingTilePuzzle/Scripts/ST_PuzzleTile.cs"
+"Assets/sliding/Original.cs"
 -langversion:9.0
 
 /deterministic

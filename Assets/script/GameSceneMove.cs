@@ -432,7 +432,26 @@ public class GameSceneMove : MonoBehaviour
     {
         SceneManager.LoadScene("4-2-16");
     }
-    
+     public void GameSceneCtrl_106 ()
+    {
+        SceneManager.LoadScene("1-3");
+    }
+    public void GameSceneCtrl_107 ()
+    {
+        SceneManager.LoadScene("2-3");
+    }
+    public void GameSceneCtrl_108 ()
+    {
+        SceneManager.LoadScene("3-3");
+    }
+    public void GameSceneCtrl_109 ()
+    {
+        SceneManager.LoadScene("4-2");
+    }
+    public void GameSceneCtrl_110 ()
+    {
+        SceneManager.LoadScene("4-4");
+    }
 
 
 
