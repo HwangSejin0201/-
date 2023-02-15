@@ -366,6 +366,7 @@
 "Assets/script/my/OnMouseDown1.cs"
 "Assets/script/my/Position.cs"
 "Assets/script/my/RandomHint.cs"
+"Assets/script/my/ResetScene.cs"
 "Assets/script/my/Right.cs"
 "Assets/script/my/Up.cs"
 "Assets/script/my2/Autoo_S2.cs"
