@@ -82,6 +82,7 @@
     <Compile Include="Assets\script\my\MoveControl.cs" />
     <Compile Include="Assets\script\my\NumOutline.cs" />
     <Compile Include="Assets\script\my2\UpS2.cs" />
+    <Compile Include="Assets\script\my\ResetScene.cs" />
     <Compile Include="Assets\script\my\Up.cs" />
     <Compile Include="Assets\script\my\Left.cs" />
     <Compile Include="Assets\script\my3\ImageChange2_S4.cs" />

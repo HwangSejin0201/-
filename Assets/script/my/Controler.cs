@@ -8,6 +8,7 @@ public class Controler : MonoBehaviour
     List<GameObject> listsquare1 = new List<GameObject>();
 
 
+
     void Start()
     {
         GameObject[] tmp = GameObject.FindGameObjectsWithTag("square3");
@@ -21,6 +22,9 @@ public class Controler : MonoBehaviour
             listsquare1[i].tag = "square2";
         }
 
+ 
+        
 
-    }      
+    }
+    
 }

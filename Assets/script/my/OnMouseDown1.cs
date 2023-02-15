@@ -13,6 +13,6 @@ public class OnMouseDown1: MonoBehaviour
     }
     public void OnMouseDown()
     {
-        GameObject1.GetComponent<MoveControlS2>().IsSelect = 0;
+        GameObject1.GetComponent<MoveControl>().IsSelect = 0;
     }
 }
