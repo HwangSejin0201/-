@@ -8,6 +8,9 @@ public class Heart : MonoBehaviour
     public int life; //틀린 개수 세는 장치
     public GameObject fail;
     public GameObject failchild;
+    public GameObject success;
+    public GameObject successchild;
+    List<GameObject> IsEmpty = new List<GameObject>();
 
 
     // Start is called before the first frame update
@@ -23,6 +26,9 @@ public class Heart : MonoBehaviour
         fail = GameObject.Find("Fail");
         failchild = fail.transform.GetChild(0).gameObject;
         failchild.SetActive(false);
+        success = GameObject.Find("Success");
+        successchild = success.transform.GetChild(0).gameObject;
+        successchild.SetActive(false);
     }
 
     
@@ -43,7 +49,21 @@ public class Heart : MonoBehaviour
             failchild.SetActive(true);
 
         }
+
+        IsEmpty = null;
+
+        GameObject[] tmp = GameObject.FindGameObjectsWithTag("square2");
+        foreach (GameObject go in tmp)
+        {
+            IsEmpty.Add(go);
+        }
+
+        if (IsEmpty == null)
+        {
+            successchild.SetActive(true);
+        }
     }
 
+   
     
 }

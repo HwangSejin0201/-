@@ -68,8 +68,10 @@
     <Compile Include="Assets\script\my3\UpS4.cs" />
     <Compile Include="Assets\script\my3\Distance2_S4.cs" />
     <Compile Include="Assets\script\my\Location.cs" />
+    <Compile Include="Assets\script\Intro\TextScript3.cs" />
     <Compile Include="Assets\script\my3\MoveControlS4.cs" />
     <Compile Include="Assets\script\my\ImageChange2.cs" />
+    <Compile Include="Assets\script\Intro\TextScript2.cs" />
     <Compile Include="Assets\script\my\Distance2.cs" />
     <Compile Include="Assets\script\my2\Distance_S2.cs" />
     <Compile Include="Assets\script\BtnCntl.cs" />
@@ -78,6 +80,7 @@
     <Compile Include="Assets\script\my\Before.cs" />
     <Compile Include="Assets\script\my\Right.cs" />
     <Compile Include="Assets\script\my3\NumOutline_S4.cs" />
+    <Compile Include="Assets\script\Intro\FadeController.cs" />
     <Compile Include="Assets\script\my2\NumOutline_S2.cs" />
     <Compile Include="Assets\script\my\MoveControl.cs" />
     <Compile Include="Assets\script\my\NumOutline.cs" />
@@ -97,12 +100,17 @@
     <Compile Include="Assets\script\my2\Distance2_S2.cs" />
     <Compile Include="Assets\script\GameSceneMove.cs" />
     <Compile Include="Assets\script\my\ImageChange.cs" />
+    <Compile Include="Assets\script\Intro\TextScript.cs" />
     <Compile Include="Assets\script\my\OnMouseDown1.cs" />
     <Compile Include="Assets\script\my2\RightS2.cs" />
     <Compile Include="Assets\script\my\BtnActive.cs" />
     <Compile Include="Assets\script\my\Heart.cs" />
     <Compile Include="Assets\script\my\RandomHint.cs" />
     <Compile Include="Assets\script\my3\RightS4.cs" />
+    <Compile Include="Assets\script\Ending\TextScript4.cs" />
+    <Compile Include="Assets\script\Ending\TextScript6.cs" />
+    <Compile Include="Assets\script\Ending\TextScript5.cs" />
+    <Compile Include="Assets\script\my\Success.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
