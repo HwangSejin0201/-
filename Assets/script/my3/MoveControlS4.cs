@@ -22,7 +22,7 @@ public class MoveControlS4 : MonoBehaviour
     {
         if (IsSelect == 1)
         {
-            SqActive.GetComponent<Image>().color = new Color(1, 1, 1, 0.5f);
+            SqActive.GetComponent<Image>().color = new Color(1, 1, 0, 0.5f);
             Empty.sprite = Picture;
         }
         else

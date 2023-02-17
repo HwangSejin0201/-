@@ -10,13 +10,13 @@ public class LeftS4 : MoveControlS4
     {
         SqActive.GetComponent<MoveControlS4>().IsSelect = 1;
         
-        if(SqActive.transform.position.x < 62.44f)
+        if(SqActive.transform.position.x < 57f)
         {
-            SqActive.transform.position += new Vector3(161f, 0, 0);
+            SqActive.transform.position = new Vector3(237.65f, SqActive.transform.position.y, SqActive.transform.position.z);
         }
         else
         {
-            SqActive.transform.position += new Vector3(-11.8f, 0, 0);
+            SqActive.transform.position += new Vector3(-9.6889f, 0, 0);
         }
         
     }

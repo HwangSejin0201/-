@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\script\my2\OnMouseDown1_S2.cs" />
     <Compile Include="Assets\script\my2\ImageChange2_S2.cs" />
+    <Compile Include="Assets\script\my\Success.cs" />
     <Compile Include="Assets\script\my\Autoo.cs" />
     <Compile Include="Assets\script\my\Controler.cs" />
     <Compile Include="Assets\script\my2\LeftS2.cs" />
@@ -68,10 +69,12 @@
     <Compile Include="Assets\script\my3\UpS4.cs" />
     <Compile Include="Assets\script\my3\Distance2_S4.cs" />
     <Compile Include="Assets\script\my\Location.cs" />
+    <Compile Include="Assets\script\Ending\TextScript4.cs" />
     <Compile Include="Assets\script\Intro\TextScript3.cs" />
     <Compile Include="Assets\script\my3\MoveControlS4.cs" />
     <Compile Include="Assets\script\my\ImageChange2.cs" />
     <Compile Include="Assets\script\Intro\TextScript2.cs" />
+    <Compile Include="Assets\script\Ending\TextScript5.cs" />
     <Compile Include="Assets\script\my\Distance2.cs" />
     <Compile Include="Assets\script\my2\Distance_S2.cs" />
     <Compile Include="Assets\script\BtnCntl.cs" />
@@ -84,6 +87,7 @@
     <Compile Include="Assets\script\my2\NumOutline_S2.cs" />
     <Compile Include="Assets\script\my\MoveControl.cs" />
     <Compile Include="Assets\script\my\NumOutline.cs" />
+    <Compile Include="Assets\script\Ending\TextScript6.cs" />
     <Compile Include="Assets\script\my2\UpS2.cs" />
     <Compile Include="Assets\script\my\ResetScene.cs" />
     <Compile Include="Assets\script\my\Up.cs" />
@@ -107,10 +111,6 @@
     <Compile Include="Assets\script\my\Heart.cs" />
     <Compile Include="Assets\script\my\RandomHint.cs" />
     <Compile Include="Assets\script\my3\RightS4.cs" />
-    <Compile Include="Assets\script\Ending\TextScript4.cs" />
-    <Compile Include="Assets\script\Ending\TextScript6.cs" />
-    <Compile Include="Assets\script\Ending\TextScript5.cs" />
-    <Compile Include="Assets\script\my\Success.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

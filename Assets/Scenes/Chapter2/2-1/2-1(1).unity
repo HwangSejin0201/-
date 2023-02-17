@@ -14001,6 +14001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fail
       objectReference: {fileID: 0}
+    - target: {fileID: 5836375549486980713, guid: 0e10dc6903b3b2f41afe0df3705ce2c1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6720782730121467955, guid: 0e10dc6903b3b2f41afe0df3705ce2c1, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -24661,6 +24665,10 @@ PrefabInstance:
     - target: {fileID: 6049637537717351773, guid: 8479c5860a0f8ff43af8b1f5eebe10a6, type: 3}
       propertyPath: m_Name
       value: Success
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049637537717351773, guid: 8479c5860a0f8ff43af8b1f5eebe10a6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6049637537717351774, guid: 8479c5860a0f8ff43af8b1f5eebe10a6, type: 3}
       propertyPath: m_Pivot.x
@@ -58839,8 +58847,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -287.9, y: 507.775}
-  m_SizeDelta: {x: 56.216, y: 52.117}
+  m_AnchoredPosition: {x: -287.5, y: 508.7}
+  m_SizeDelta: {x: 55.647, y: 53.538}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2139503139
 MonoBehaviour:
@@ -58922,7 +58930,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

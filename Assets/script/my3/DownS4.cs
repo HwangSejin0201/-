@@ -13,13 +13,13 @@ public class DownS4 : MoveControlS4
         SqActive.GetComponent<MoveControlS4>().IsSelect = 1;
         
 
-        if (SqActive.transform.position.y <= 147.4f)
+        if (SqActive.transform.position.y < 164f)
         {
-            SqActive.transform.position += new Vector3(0, 147.98f, 0);
+            SqActive.transform.position = new Vector3(SqActive.transform.position.x, 350.61f, SqActive.transform.position.z);
         }
         else
         {
-            SqActive.transform.position += new Vector3(0, -10.8f, 0);
+            SqActive.transform.position += new Vector3(0, -9.9995f, 0);
         }
 
     }

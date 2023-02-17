@@ -40159,6 +40159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fail
       objectReference: {fileID: 0}
+    - target: {fileID: 2448239946565970118, guid: 9312ddb87b0e2d04c88c8f0dc6d4e262, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3189139702732451484, guid: 9312ddb87b0e2d04c88c8f0dc6d4e262, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -47591,6 +47595,10 @@ PrefabInstance:
     - target: {fileID: 6049637537717351773, guid: afbe825b6dc971940a984d5a5ea922c9, type: 3}
       propertyPath: m_Name
       value: Success
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049637537717351773, guid: afbe825b6dc971940a984d5a5ea922c9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6049637537717351774, guid: afbe825b6dc971940a984d5a5ea922c9, type: 3}
       propertyPath: m_Pivot.x

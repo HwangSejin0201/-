@@ -10,13 +10,13 @@ public class Right : MoveControl
     {
         SqActive.GetComponent<MoveControl>().IsSelect = 1;
 
-        if (SqActive.transform.position.x >= 207.04f)
+        if (SqActive.transform.position.x > 220f)
         {
-            SqActive.transform.position += new Vector3(-152.46f, 0, 0);
+            SqActive.transform.position = new Vector3(60.60f, SqActive.transform.position.y, SqActive.transform.position.z);
         }
         else
         {
-            SqActive.transform.position += new Vector3(16.94f, 0, 0);
+            SqActive.transform.position += new Vector3(19.1433f, 0, 0);
         }
 
     }

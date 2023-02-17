@@ -10,7 +10,7 @@ public class Heart : MonoBehaviour
     public GameObject failchild;
     public GameObject success;
     public GameObject successchild;
-    List<GameObject> IsEmpty = new List<GameObject>();
+
 
 
     // Start is called before the first frame update
@@ -50,15 +50,13 @@ public class Heart : MonoBehaviour
 
         }
 
-        IsEmpty = null;
+
 
         GameObject[] tmp = GameObject.FindGameObjectsWithTag("square2");
-        foreach (GameObject go in tmp)
-        {
-            IsEmpty.Add(go);
-        }
+        Debug.Log(tmp.Length);
+     
 
-        if (IsEmpty == null)
+        if (tmp.Length == 0)
         {
             successchild.SetActive(true);
         }
