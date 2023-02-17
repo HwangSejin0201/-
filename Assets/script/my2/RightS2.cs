@@ -10,13 +10,13 @@ public class RightS2 : MoveControlS2
     {
         SqActive.GetComponent<MoveControlS2>().IsSelect = 1;
 
-        if (SqActive.transform.position.x > 400f)
+        if (SqActive.transform.position.x > 230f)
         {
-            SqActive.transform.position = new Vector3(96.42f, SqActive.transform.position.y, 0);
+            SqActive.transform.position = new Vector3(56.78f, SqActive.transform.position.y, SqActive.transform.position.z);
         }
         else
         {
-            SqActive.transform.position += new Vector3(22f, 0, 0);
+            SqActive.transform.position += new Vector3(12.7842f, 0, 0);
         }
 
 

@@ -12,13 +12,13 @@ public class UpS2 : MoveControlS2
         
         SqActive.GetComponent<MoveControlS2>().IsSelect = 1;
 
-        if (SqActive.transform.position.y > 560f)
+        if (SqActive.transform.position.y > 325f)
         {
-            SqActive.transform.position = new Vector3(SqActive.transform.position.x, 277.94f, 0f);
+            SqActive.transform.position = new Vector3(SqActive.transform.position.x, 163.53f, SqActive.transform.position.z);
         }
         else
         {
-            SqActive.transform.position += new Vector3(0, 20.5f, 0);
+            SqActive.transform.position += new Vector3(0, 11.9414f, 0);
         }
 
 

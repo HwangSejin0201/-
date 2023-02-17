@@ -11,13 +11,13 @@ public class UpS4 : MoveControlS4
     {
         SqActive.GetComponent<MoveControlS4>().IsSelect = 1;
 
-        if (SqActive.transform.position.y > 285.2f)
+        if (SqActive.transform.position.y > 346f)
         {
-            SqActive.transform.position += new Vector3(0, -147.98f, 0);
+            SqActive.transform.position = new Vector3(SqActive.transform.position.x, 160.62f, SqActive.transform.position.z);
         }
         else
         {
-            SqActive.transform.position += new Vector3(0, 10.8f, 0);
+            SqActive.transform.position += new Vector3(0, 9.9995f, 0);
         }
 
     }
